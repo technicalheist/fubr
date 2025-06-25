@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="tailwind.js"></script>
 </head>
 
@@ -122,44 +125,75 @@
         </div>
     </section>
 
-    <!-- Product Gallery Section -->
+    <!-- Product Gallery Slider Section -->
     <section class="bg-fubr-background px-6 py-12">
         <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-                <!-- Image 1 -->
-                <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
-                    <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
-                        alt="Custom Foam Insert 1"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
+            <!-- Slider main container -->
+            <div class="swiper product-gallery-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
+                            <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                                alt="Custom Foam Insert 1"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                        </div>
+                    </div>
 
-                <!-- Image 2 -->
-                <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
-                    <img src="https://images.unsplash.com/photo-1595590424283-b8f17842773f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
-                        alt="Custom Foam Insert 2"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
+                            <img src="https://images.unsplash.com/photo-1595590424283-b8f17842773f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                                alt="Custom Foam Insert 2"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                        </div>
+                    </div>
 
-                <!-- Image 3 -->
-                <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
-                    <img src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
-                        alt="Custom Foam Insert 3"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
+                            <img src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                                alt="Custom Foam Insert 3"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                        </div>
+                    </div>
 
-                <!-- Image 4 -->
-                <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
-                    <img src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
-                        alt="Custom Foam Insert 4"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
+                            <img src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                                alt="Custom Foam Insert 4"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                        </div>
+                    </div>
 
-                <!-- Image 5 -->
-                <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
-                    <img src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80""
-                        alt=" Custom Foam Insert 5"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
+                            <img src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                                alt="Custom Foam Insert 5"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
+                            <img src="assets/images/1.jpeg"
+                                alt="Custom Foam Insert 5"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl overflow-hidden bg-gray-800 aspect-square">
+                            <img src="assets/images/2.jpeg"
+                                alt="Custom Foam Insert 5"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                        </div>
+                    </div>
                 </div>
+                
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev !text-white"></div>
+                <div class="swiper-button-next !text-white"></div>
+                
+                <!-- Pagination dots -->
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
@@ -388,12 +422,12 @@
                         <span>|</span>
                         <span>All Rights Reserved</span>
                     </div>
-                </div>
-            </div>
-
+                </div>            </div>
         </div>
     </footer>
 
+    <!-- Slider initialization script -->
+    <script src="assets/js/slider.js"></script>
 </body>
 
 </html>
