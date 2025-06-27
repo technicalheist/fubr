@@ -1,0 +1,277 @@
+/* Oldschool Grotesk Font Family */
+
+/* Normal variants */
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-NormalThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-NormalExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-NormalLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-NormalRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-NormalMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-NormalBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-NormalExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-NormalBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Compact variants */
+@font-face {
+    font-family: 'Oldschool Grotesk Compact';
+    src: url('../fonts/OldschoolGrotesk-CompactThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compact';
+    src: url('../fonts/OldschoolGrotesk-CompactExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compact';
+    src: url('../fonts/OldschoolGrotesk-CompactLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compact';
+    src: url('../fonts/OldschoolGrotesk-CompactRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compact';
+    src: url('../fonts/OldschoolGrotesk-CompactMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compact';
+    src: url('../fonts/OldschoolGrotesk-CompactBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compact';
+    src: url('../fonts/OldschoolGrotesk-CompactExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compact';
+    src: url('../fonts/OldschoolGrotesk-CompactBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Condensed variants */
+@font-face {
+    font-family: 'Oldschool Grotesk Condensed';
+    src: url('../fonts/OldschoolGrotesk-CondensedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Condensed';
+    src: url('../fonts/OldschoolGrotesk-CondensedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Condensed';
+    src: url('../fonts/OldschoolGrotesk-CondensedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Condensed';
+    src: url('../fonts/OldschoolGrotesk-CondensedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Condensed';
+    src: url('../fonts/OldschoolGrotesk-CondensedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Condensed';
+    src: url('../fonts/OldschoolGrotesk-CondensedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Condensed';
+    src: url('../fonts/OldschoolGrotesk-CondensedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Condensed';
+    src: url('../fonts/OldschoolGrotesk-CondensedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Compressed variants */
+@font-face {
+    font-family: 'Oldschool Grotesk Compressed';
+    src: url('../fonts/OldschoolGrotesk-CompressedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compressed';
+    src: url('../fonts/OldschoolGrotesk-CompressedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compressed';
+    src: url('../fonts/OldschoolGrotesk-CompressedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compressed';
+    src: url('../fonts/OldschoolGrotesk-CompressedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compressed';
+    src: url('../fonts/OldschoolGrotesk-CompressedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compressed';
+    src: url('../fonts/OldschoolGrotesk-CompressedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compressed';
+    src: url('../fonts/OldschoolGrotesk-CompressedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Compressed';
+    src: url('../fonts/OldschoolGrotesk-CompressedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Variable font (if you prefer to use the variable version) */
+@font-face {
+    font-family: 'Oldschool Grotesk Variable';
+    src: url('../fonts/OldschoolGroteskVar.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Utility classes for easy use */
+.font-oldschool { font-family: 'Oldschool Grotesk', sans-serif; }
+.font-oldschool-compact { font-family: 'Oldschool Grotesk Compact', sans-serif; }
+.font-oldschool-condensed { font-family: 'Oldschool Grotesk Condensed', sans-serif; }
+.font-oldschool-compressed { font-family: 'Oldschool Grotesk Compressed', sans-serif; }
+.font-oldschool-variable { font-family: 'Oldschool Grotesk Variable', sans-serif; }

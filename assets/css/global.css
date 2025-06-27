@@ -1,0 +1,31 @@
+/* Global Styles for FUBR Website */
+
+/* Set default font family for the entire document */
+* {
+    font-family: 'Oldschool Grotesk', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Ensure body uses the custom font */
+body {
+    font-family: 'Oldschool Grotesk', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Override Tailwind's font-sans with custom font */
+.font-sans {
+    font-family: 'Oldschool Grotesk', 'Inter', system-ui, -apple-system, sans-serif !important;
+}
+
+/* Additional typography defaults */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oldschool Grotesk Condensed', 'Oldschool Grotesk', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Large headings use compressed variant */
+.hero-title, .display-title {
+    font-family: 'Oldschool Grotesk Compressed', 'Oldschool Grotesk', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Navigation and UI elements */
+nav, .nav-item, button {
+    font-family: 'Oldschool Grotesk', 'Inter', system-ui, -apple-system, sans-serif;
+}

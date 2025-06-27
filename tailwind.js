@@ -3,6 +3,11 @@
         extend: {
             fontFamily: {
                 'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                'oldschool': ['Oldschool Grotesk', 'sans-serif'],
+                'oldschool-compact': ['Oldschool Grotesk Compact', 'sans-serif'],
+                'oldschool-condensed': ['Oldschool Grotesk Condensed', 'sans-serif'],
+                'oldschool-compressed': ['Oldschool Grotesk Compressed', 'sans-serif'],
+                'oldschool-variable': ['Oldschool Grotesk Variable', 'sans-serif'],
             },
             colors: {
                 'fubr': {

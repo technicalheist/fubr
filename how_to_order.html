@@ -4,15 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Order?</title>
+    <title>Summer Specials</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="tailwind.js"></script>
 </head>
 
-<body class="font-sans">
+<body class="font-oldschool">
     <header class="bg-fubr-header text-white py-4 px-6">
         <div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto gap-4 md:gap-0">
             <div
@@ -25,8 +30,13 @@
             <button
                 class="flex items-center gap-2 bg-gray-100 text-gray-800 px-5 py-3 rounded-full font-semibold text-sm hover:bg-gray-200 transition-all duration-300 hover:-translate-y-0.5 group">
                 Book Appointment
-                <img src="assets/images/diagonal-arrow-svgrepo-com.svg" alt="Arrow"
-                    class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
+                <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M7 7H17V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
             </button>
         </div>
     </header>
@@ -37,8 +47,8 @@
             <div class="flex flex-col lg:flex-row justify-between gap-8">
                 <!-- Logo and Slogan Section -->
                 <div class="flex flex-col">
-                    <h1 class="text-6xl md:text-7xl lg:text-8xl font-black uppercase tracking-tight text-white">
-                        <a href="index.html">FUBR!</a>
+                    <h1 class="text-6xl md:text-7xl lg:text-8xl font-black uppercase tracking-tight text-white font-oldschool-compressed">
+                         <a href="index.html">FUBR!</a>
                     </h1>
                     <p class="text-lg md:text-xl text-gray-300 font-light tracking-wide mt-2">
                         Custom Foam Inserts
@@ -72,7 +82,6 @@
             </div>
         </div>
     </nav>
-
 
     <!-- Hero Banner Section -->
     <section class="bg-fubr-background px-6 py-8 md:py-12 lg:py-16">
