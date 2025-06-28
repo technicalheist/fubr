@@ -260,7 +260,6 @@
     font-display: swap;
 }
 
-/* Variable font (if you prefer to use the variable version) */
 @font-face {
     font-family: 'Oldschool Grotesk Variable';
     src: url('../fonts/OldschoolGroteskVar.ttf') format('truetype-variations');
@@ -269,7 +268,6 @@
     font-display: swap;
 }
 
-/* Utility classes for easy use */
 .font-oldschool { font-family: 'Oldschool Grotesk', sans-serif; }
 .font-oldschool-compact { font-family: 'Oldschool Grotesk Compact', sans-serif; }
 .font-oldschool-condensed { font-family: 'Oldschool Grotesk Condensed', sans-serif; }
